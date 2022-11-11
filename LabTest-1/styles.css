@@ -26,3 +26,8 @@ h1 {
 .course:hover {
 	background-color: #2ECC40;
 }
+
+footer {
+	text-align: right;
+	margin-top: 2rem;
+}
