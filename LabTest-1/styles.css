@@ -1,0 +1,28 @@
+body {
+	font-family: sans-serif;
+	padding: 2rem;
+}
+
+h1 {
+	color: #F012BE;
+}
+
+#disclaimer {
+	color: green;
+}
+
+.course {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	padding: 0.5rem;
+	margin-left:1rem;
+
+	cursor: pointer;
+	background-color: lightgray;
+	transition: background-color 150ms;
+}
+
+.course:hover {
+	background-color: #2ECC40;
+}
