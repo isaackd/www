@@ -26,10 +26,20 @@
         </header>
         <main>
             <h1>Welcome to Isaac's Website!</h1>
+            <a href="images/sir_isaac_newton.jpg">
+                <picture>
+                    <source srcset="images/sir_isaac_newton_300.jpg" media="(min-width: 501px)">
+                    <source srcset="images/sir_isaac_newton_150.jpg">
+                    <img alt="A portrait of me" src="images/sir_isaac_newton.jpg">
+                </picture>
+            </a>
             <p>My name is Isaac and I am in the Computer Science program at Sault College.</p>
             <p>I love to play the piano its real great fun.</p>
             <h2>My Favourite Things</h2>
-            <a href="https://www.mlb.com/bluejays"><img alt="MLB Logo" width="200" src="images/logo.png"></a>
+            <figure>
+                <a href="https://www.mlb.com/bluejays"><img alt="MLB Logo" width="200" src="images/logo.png"></a>
+                <figcaption>The logo for the Toronto Blue Jays MLB team</figcaption>
+            </figure>
             <h3>Games</h3>
             <ol>
                 <li>Apex</li>
@@ -45,6 +55,14 @@
                 At having cultivated rock.<br>
                 <cite>by <span class="author">Robert Frost</span></cite>
             </p>
+            <h3>Public Domain Audiobook</h3>
+            <figure>
+                <figcaption>Listen to Ship Of Ishtar</figcaption>
+                <audio src="https://www.archive.org/download/ship_of_ishtar_2212_librivox/shipofishtar_03_merritt_64kb.mp3" controls></audio>
+            </figure>
+            <a href="https://www.archive.org/download/ship_of_ishtar_2212_librivox/shipofishtar_03_merritt_64kb.mp3">Click here to download audio file</a>
+            <h3>YouTube Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Fk3E-qH9Bck" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </main>
         <footer>
             <hr>
@@ -52,6 +70,14 @@
                 <cite>&#8212; <span class="author">George W. Bush</span></cite>
             </blockquote>
             <p>&#169; <a href="mailto:joebiden@usa.gov?subject=Message%20from%20CSD112%20Website">Isaac Daoust</a></p>
+            <picture>
+                <source srcset="images/sc-logo.svg" type="image/svg+xml">
+                <img width="70" alt="The Sault College logo" src="sc-logo.png" srcset="
+                    images/sc-logo@2x.png 2x,
+                    images/sc-logo@1.5x.png 1.5x,
+                    images/sc-logo.png 1x
+                ">
+            </picture>
         </footer>
         <a href="#top" title="Back to top">◤</a>
     </div>
